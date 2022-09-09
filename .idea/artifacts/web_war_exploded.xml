@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="web实验五:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/web_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="web实验五/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="web实验五" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/../../大一第二学期课件/java2/数据库/shujuku/lib/mysql-connector-java-8.0.16.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../图片上传/commons-io-2.8.0-bin/commons-io-2.8.0/commons-io-2.8.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../图片上传/commons-fileupload-1.4-bin/commons-fileupload-1.4.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
